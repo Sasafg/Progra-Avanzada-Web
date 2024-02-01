@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Progra-Avanzada-Web/FileContentIndex
+/ProyectoWebAvanzada/.vs/ProjectEvaluation/proyectowebavanzada.metadata.v7.bin
+/ProyectoWebAvanzada/.vs/ProjectEvaluation/proyectowebavanzada.projects.v7.bin
+/ProyectoWebAvanzada/ProyectoWebAvanzada/obj/Debug/net8.0/ProyectoWebAvanzada.AssemblyInfo.cs
+/ProyectoWebAvanzada/ProyectoWebAvanzada/obj/Debug/net8.0/ProyectoWebAvanzada.AssemblyInfoInputs.cache
+/ProyectoWebAvanzada/ProyectoWebAvanzada/obj/Debug/net8.0/ProyectoWebAvanzada.GeneratedMSBuildEditorConfig.editorconfig
+/ProyectoWebAvanzada/.vs/ProyectoWebAvanzada/v17/.suo
+/ProyectoWebAvanzada/ProyectoWebAvanzada/obj/Release/net8.0
+/.vs/Progra-Avanzada-Web/v17
+/.vs
