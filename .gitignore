@@ -21,3 +21,5 @@ ProyectoWebAvanzada/ProyectoWebAvanzada/obj/Debug/net8.0/ProyectoWebAvanzada.ass
 ProyectoWebAvanzada/ProyectoWebAvanzada/obj/project.assets.json
 ProyectoWebAvanzada/ProyectoWebAvanzada/obj/project.nuget.cache
 ProyectoWebAvanzada/ProyectoWebAvanzada/obj/ProyectoWebAvanzada.csproj.nuget.dgspec.json
+*.v2
+*.bin
