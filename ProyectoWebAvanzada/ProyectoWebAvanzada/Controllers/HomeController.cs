@@ -23,8 +23,22 @@ namespace ProyectoWebAvanzada.Controllers
             return View();
         }
 
-        public IActionResult Index
-            ()
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult IndexAdmin()
+        {
+            return View();
+        }
+
+        public IActionResult SobreNosotros()
+        {
+            return View();
+        }
+
+        public IActionResult Contactanos()
         {
             return View();
         }

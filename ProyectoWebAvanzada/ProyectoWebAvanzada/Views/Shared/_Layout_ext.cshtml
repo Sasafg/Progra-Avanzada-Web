@@ -4,12 +4,46 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Modernize Free</title>
-    <link rel="shortcut icon" type="image/png" href="~/images/logos/favicon.png" />
+    <title>FideNet</title>
+    <link rel="shortcut icon" type="image/png" href="~/images/FideNet (1).png" />
     <link rel="stylesheet" href="~/css/styles.min.css" />
+    <link rel="stylesheet" href="~/css/estilo.css" />
 </head>
 
+
+
 <body>
+
+
+     @********** navbar ************* *@
+
+
+    <div class="top-bar">
+        <div>
+            <a href="@Url.Action("Registry", "Home")">Registrarse</a> | <a href=" @Url.Action("Login", "Home")">Iniciar Sesión</a>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="brand">
+            <img src="~/images/FideNet (1).png" alt="Logo">
+            <h1 class="brand-title">FideNet</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="@Url.Action("Index", "Home")">Inicio</a></li>
+            <li class="center"><a href="@Url.Action("SobreNosotros", "Home")">Sobre Nosotros</a></li>
+            <li class="upward"><a href="@Url.Action("Contactanos", "Home")">Contáctanos</a></li>
+        </ul>
+    </div>
+    <div class="yellow-banner">
+        <i class="fas fa-wifi banner-icon"></i> <i class="fas fa-phone banner-icon"></i> <i class="fas fa-tv banner-icon"></i> Adquiere ahora nuestras promociones
+    </div>
+
+    @********** end - navbar ************* *@
+
+
+
+
     <div class="body-wrapper">
         <header class="app-header">
         </header>
