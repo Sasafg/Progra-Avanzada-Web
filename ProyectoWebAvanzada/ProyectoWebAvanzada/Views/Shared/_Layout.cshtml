@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FideNet</title>
-    <link rel="shortcut icon" type="image/png" href="~/images/FideNet (1).png" />
+    <title>Modernize Free</title>
+    <link rel="shortcut icon" type="image/png" href="~/images/logos/favicon.png" />
     <link rel="stylesheet" href="~/css/styles.min.css" />
+    <link rel="stylesheet" href="~/css/app.css" />
 </head>
 
 <body>
@@ -33,16 +34,14 @@
                             <span class="hide-menu">Home</span>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link" href=" " aria-expanded="false">
+                            <a class="sidebar-link" href="./index.html" aria-expanded="false">
                                 <span>
                                     <i class="ti ti-layout-dashboard"></i>
                                 </span>
                                 <span class="hide-menu">Dashboard</span>
                             </a>
                         </li>
-                     
                     </ul>
-                   
                 </nav>
                 <!-- End Sidebar navigation -->
             </div>
@@ -69,9 +68,11 @@
                     </ul>
                     <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
                         <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-                            <a href="@Url.Action("Index", "Home")" target="_blank" class="btn btn-primary">Inicio</a>
                             <li class="nav-item dropdown">
-                                
+                                <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
+                                   aria-expanded="false">
+                                    <img src="~/images/profile/user-1.jpg" alt="" width="35" height="35" class="rounded-circle">
+                                </a>
                                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                                     <div class="message-body">
                                         <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
@@ -96,8 +97,11 @@
             </header>
             <!--  Header End -->
         </div>
+        @RenderBody()
+        <footer class="py-6 px-6 text-center footerPosition">
+            <p class="mb-0 fs-4">Design and Developed by <a href="https://adminmart.com/" target="_blank" class="pe-1 text-primary text-decoration-underline">AdminMart.com</a></p>
+        </footer>
     </div>
-    @RenderBody()
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/lib/simplebar/dist/simplebar.js"></script>
