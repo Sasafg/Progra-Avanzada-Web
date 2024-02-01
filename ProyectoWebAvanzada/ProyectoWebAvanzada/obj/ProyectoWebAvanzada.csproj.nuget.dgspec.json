@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mnava\\source\\repos\\ProyectoWebAvanzada\\ProyectoWebAvanzada\\ProyectoWebAvanzada.csproj": {}
+    "C:\\Users\\mnava\\OneDrive\\Documentos\\GitHub\\Progra-Avanzada-Web\\ProyectoWebAvanzada\\ProyectoWebAvanzada\\ProyectoWebAvanzada.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mnava\\source\\repos\\ProyectoWebAvanzada\\ProyectoWebAvanzada\\ProyectoWebAvanzada.csproj": {
+    "C:\\Users\\mnava\\OneDrive\\Documentos\\GitHub\\Progra-Avanzada-Web\\ProyectoWebAvanzada\\ProyectoWebAvanzada\\ProyectoWebAvanzada.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mnava\\source\\repos\\ProyectoWebAvanzada\\ProyectoWebAvanzada\\ProyectoWebAvanzada.csproj",
+        "projectUniqueName": "C:\\Users\\mnava\\OneDrive\\Documentos\\GitHub\\Progra-Avanzada-Web\\ProyectoWebAvanzada\\ProyectoWebAvanzada\\ProyectoWebAvanzada.csproj",
         "projectName": "ProyectoWebAvanzada",
-        "projectPath": "C:\\Users\\mnava\\source\\repos\\ProyectoWebAvanzada\\ProyectoWebAvanzada\\ProyectoWebAvanzada.csproj",
+        "projectPath": "C:\\Users\\mnava\\OneDrive\\Documentos\\GitHub\\Progra-Avanzada-Web\\ProyectoWebAvanzada\\ProyectoWebAvanzada\\ProyectoWebAvanzada.csproj",
         "packagesPath": "C:\\Users\\mnava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mnava\\source\\repos\\ProyectoWebAvanzada\\ProyectoWebAvanzada\\obj\\",
+        "outputPath": "C:\\Users\\mnava\\OneDrive\\Documentos\\GitHub\\Progra-Avanzada-Web\\ProyectoWebAvanzada\\ProyectoWebAvanzada\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
